@@ -1,6 +1,6 @@
 [
     {
-        "name": "Colab - Basic Module definition",
+        "name": "Basic Module definition",
         "trigger": "module",
         "usage": "module",
         "description": "A basic module definition",

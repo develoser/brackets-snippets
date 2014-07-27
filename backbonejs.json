@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Colab - Basic Module definition",
+        "trigger": "module",
+        "usage": "module",
+        "description": "A basic module definition",
+        "template": "define('$${path}', function ($${name}) {\n$${name}!!{cursor}\n});"
+    },
+    {
+        "name": "Backbone Collection",
+        "trigger": "bbc",
+        "usage": "bbcollection",
+        "description": "Backbone Collection",
+        "template": "Backbone.Collection.extend({!!{cursor}});"
+    },
+    {
+        "name": "Backbone Model",
+        "trigger": "bbm",
+        "usage": "bbmodel",
+        "description": "Backbone Model",
+        "template": "Backbone.Model.extend({!!{cursor}});"
+    },
+    {
+        "name": "Backbone View",
+        "trigger": "bbv",
+        "usage": "bbview",
+        "description": "Backbone View",
+        "template": "Backbone.View.extend({!!{cursor}});"
+    }
+]

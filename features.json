@@ -1,0 +1,25 @@
+[
+   {
+       "name": "feature",
+       "trigger": "feature",
+       "usage": "Simple feature whenOn",
+       "description": "Create a simple featureflag",
+       "template": "feature('$${condition}').whenOn(function(){\n!!{cursor}\n}, $${ctx});"
+   },
+   
+   {
+       "name": "feature off",
+       "trigger": "featureoff",
+       "usage": "Simple feature whenOff",
+       "description": "Create a simple featureflag off",
+       "template": "feature('$${condition}').whenOff(function(){\n!!{cursor}\n, $${ctx}};"
+   },
+   
+   {
+       "name": "featureelse",
+       "trigger": "featureelse",
+       "usage": "Simple feature whenOnElse",
+       "description": "Create a simple featureflag",
+       "template": "feature('$${condition}').whenOnElse(function(){\n!!{cursor}\n}, function(){\n!!{cursor}\n} , $${ctx};"
+   }
+]
